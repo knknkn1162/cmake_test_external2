@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS=-Iinclude
-LDFLAGS = -L$(SUBDIR) -static
+LDFLAGS = -static
 ARFLAGS = rcs
 TARGET=libextproj2.a
 
